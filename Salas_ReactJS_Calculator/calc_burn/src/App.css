@@ -1,0 +1,19 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  max-width: 200px;
+  margin-top: 10px;
+}
+
+.keypad button {
+  padding: 10px;
+  font-size: 18px;
+}
